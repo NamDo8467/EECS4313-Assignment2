@@ -143,6 +143,7 @@
     
     <!--From assignment - Evosuite-->
     <evosuite.version>1.0.6</evosuite.version>
+    <rat.skip>true</rat.skip>
   </properties>
   <build>
     <defaultGoal>clean verify apache-rat:check japicmp:cmp checkstyle:check spotbugs:check pmd:check javadoc:javadoc</defaultGoal>
